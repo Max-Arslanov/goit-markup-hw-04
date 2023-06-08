@@ -191,6 +191,20 @@ header {
   /* SLATE */
 }
 
+.benefits-icon {
+  background-color: var(--light-backround);
+  border-radius: 4px;
+  display: flex;
+  padding: 24px 0 24px 0;
+  margin-bottom: 8px;
+}
+.icon-benefit {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24 px;
+  margin-bottom: 24 px;
+}
+
 .services {
   padding-bottom: 120px;
 }
