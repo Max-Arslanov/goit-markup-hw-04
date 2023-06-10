@@ -241,6 +241,34 @@ header {
 .card-wrapper {
   padding: 32px 16px;
 }
+.social-media {
+  display: flex;
+  gap: 24px;
+  margin: 8px 0 0 0;
+  /* position: relative; */
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--active-links);
+  display: flex;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* position: absolute; */
+}
+
+.social-icon:hover {
+  background-color: #31d0aa;
+}
+
+.socmedia-icon {
+  fill: var(--light-backround);
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .team-card {
   background-color: var(--white-background);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -423,4 +451,16 @@ img {
 .section-positioning {
   padding-top: 96px;
   padding-bottom: 120px;
+}
+
+.customers {
+  padding: 120px 156px;
+}
+.customer-icon {
+  fill: #8e8f99;
+  width: 41px;
+  height: 46.97px;
+}
+.customer-list {
+  display: flex;
 }
