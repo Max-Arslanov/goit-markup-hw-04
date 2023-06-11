@@ -455,12 +455,22 @@ img {
 
 .customers {
   padding: 120px 156px;
+  /* max-width: 1128px; */
 }
 .customer-icon {
   fill: #8e8f99;
-  width: 41px;
-  height: 46.97px;
 }
 .customer-list {
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.customer-card {
+  width: calc((100%-120px) / 6);
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }
