@@ -137,7 +137,7 @@ header {
   color: var(--accent-color);
 }
 
-.current: {
+.current {
   position: relative;
 }
 
@@ -148,7 +148,8 @@ header {
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
-  display: block;
+  left: 0;
+  bottom: -1.5px;
 }
 
 .header-menu {
