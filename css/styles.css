@@ -366,6 +366,11 @@ header {
   margin-bottom: 16px;
 }
 
+.footer-container {
+  margin-right: 120px;
+  margin-left: 156px;
+}
+
 /* .footer-content {
   max-width: 1158px;
   display: block;
@@ -543,13 +548,11 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--white-background);
+  margin-bottom: 16px;
 }
 .footer-social {
-  position: absolute;
   width: 208px;
   height: 80px;
-  left: 540px;
-  top: 2988px;
 }
 
 .footer-social-media {
