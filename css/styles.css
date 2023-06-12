@@ -297,8 +297,8 @@ header {
 .socmedia-icon {
   fill: var(--light-backround);
 
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .team-card {
