@@ -148,6 +148,7 @@ header {
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
+  display: block;
 }
 
 .header-menu {
