@@ -63,6 +63,7 @@ body {
   background-size: cover;
   max-width: 1440px;
   background-position: center;
+  margin: 0 auto;
   /* background-position: 50% 50%; */
 }
 
@@ -226,8 +227,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px 0 24px 0;
+  /* padding: 24px 0 24px 0; */
   margin-bottom: 8px;
+  height: 112px;
 }
 .icon-benefit {
   margin-left: auto;
